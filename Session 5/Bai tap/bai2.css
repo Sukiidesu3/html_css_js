@@ -1,0 +1,21 @@
+/*
+reset css
+*/
+{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    color: white;
+}
+.text1{
+    text-decoration: underline dotted;
+    color: greenyellow;
+    font-style: italic;
+}
+.text2{
+    text-decoration: underline dotted;
+    color: greenyellow;
+    font-style: italic;
+}

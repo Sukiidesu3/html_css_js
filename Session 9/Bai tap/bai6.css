@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Adjust the width as needed */
+    justify-content: space-between;
+  }
+  
+  .big1, .big2 {
+    background-color: purple;
+    color: white;
+    width: 180px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; /* Adjust the margin as needed */
+  }
+  
+  .small {
+    background-color: purple;
+    color: white;
+    width: 80px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; /* Adjust the margin as needed */
+  }
+  

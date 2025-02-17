@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px ;
+    background-color: #f8f8f8;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.hero .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.hero .btn:hover {
+    background-color: #444;
+}
+
+
+.featured-work {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.featured-work h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    border-radius: 5px;
+}
+
+.project-title {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.about {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.about h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #555;
+  
+}
+
+
+.footer {
+    background: #1f1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    opacity:0.6;
+    height: 100px;
+}
